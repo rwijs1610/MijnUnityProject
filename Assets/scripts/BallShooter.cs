@@ -1,13 +1,10 @@
 using UnityEngine;
-
 public class BallShooter : MonoBehaviour
 {
-6    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    [SerializeField] private Vector3 initialVelocity = new Vector3(-8f, 0f, 0f);
+    private Rigidbody rb;
+    void Awake() { rb = GetComponent<Rigidbody>(); }
+    void Start() { rb.linearVelocity = initialVelocity; }
     void Update()
     {
         
