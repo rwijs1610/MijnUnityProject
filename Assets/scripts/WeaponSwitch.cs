@@ -15,22 +15,14 @@ public class WeaponSwitch : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
             currentWeapon = "sword";
-            Debug.Log (" You selected the sword: strong and close range.");
         if (Input.GetKeyDown(KeyCode.W))
             currentWeapon = "bow";
-            Debug.Log (" You selected the bow: long range and fast.");
         if (Input.GetKeyDown(KeyCode.E))
             currentWeapon = "staff";
-            Debug.Log (" You selected the magic staff: powerful but uses mana.");
         if (Input.GetKeyDown(KeyCode.R))
             currentWeapon = "dagger";
-            Debug.Log (" You selected the hammer: heavy, slow, but deals massive damage.");
         if (Input.GetKeyDown(KeyCode.T))
             currentWeapon = "default";
-            Debug.Log (" You selected the default: basic weapon with balanced stats.");
-
-        
-
 
         switch (currentWeapon)
         {

@@ -90,9 +90,9 @@ hier heb ik eigenlik niets aan verandert
 [de code file die ik heb gebruikt voor het laten veranderen van de kleur van de muur  ](Assets\scripts/ScoreCalculator.cs)
 
 ---
-## oefening 4.1
+## oefening 4.1a
 
-![health status](ImgGifs/HealthStatus.gif)
+![small game](ImgGifs/SmallGame%20.gif)
 
 **de code is bestuurbaar met zoals gevraagt h en j h voor damage en j voor healing**
 
@@ -104,3 +104,77 @@ hier heb ik eigenlik niets aan verandert
 
 ---
 ## oefening 4.1b
+
+![small game](/ImgGifs/SmallGame%20.gif)
+
+**het uitbrijden was vrij makkelijk ik heb een script gemaakt dat op de player wordt toegepast het kijkt naar of het object een ```Enemy``` tag heeft en gebruikt deze om de scene te herstarten en een punt van de health af te halen**
+
+[de code file die ik heb gebruikt voor de player](Assets\scripts/PlayerHealth.cs)
+
+--- 
+## oefening 4.1c 
+
+![boo](ImgGifs/Boo.gif)
+
+**ik heb een script toegevoegt aan een Enemy die hem om een parent object heen laat draaien**
+
+[de code file die ik heb gebruikt voor het boo script](Assets\scripts/BooScript.cs)
+
+---
+## oefening 4.2 
+
+![coin game](ImgGifs/CoinCollector.gif)
+
+**ik heb een script gemaakt die kijkt of een object een coin tag heeft en houdt op basis daarvan een score bij**
+
+[coin collector](Assets\script/Pickup)
+
+---
+## oefening 5.1 a
+
+![health status](ImgGifs/HealthStatus.gif)
+
+**de code is bestuurbaar met zoals gevraagt h en j h voor damage en j voor healing**
+
+- een if-structuur past hier goed omdat je voor elke log moet kijken of je health onder een bepaalde hoeveelheid is 
+
+- een switch zou ook kunnen werken omdat je dan hoeveelheid health kan koppelen aan een massage 
+
+[de code file die ik heb gebruikt voor het laten zien van de code](Assets\scripts/HealthStatus.cs)
+
+--- 
+## oefening 5.1 b 
+
+![weapon switch](ImgGifs/WeaponSwitch.gif)
+
+**het werkt zoals het werkt je stuurd het aan met Q, W, E, R en T**
+
+[de code file die ik heb gebruikt voor de switch](Assets\scripts/WeaponSwitch.cs)
+
+---
+## oefening 5.1c
+
+![emun weapon switch](ImgGifs/EnumWeapon%20Switch.png)
+
+**ik heb gedaan zoals de opdracht vroeg en heb een enum toegevoegd**
+
+[de code file die ik heb gebruikt voor de switch + de enum](Asssets\scripts/WeaponSwitchEnum.cs)
+
+---
+## oefening 5.2
+
+![color changer](ImgGifs/ColorChanger.gif)
+
+**ik heb een script gemaakt dat de renderer neemt van het opject en kijkt of het een player is die erop staat als dat zo is kan je met R,G en B de kleur veranderen**
+
+[de code file die ik heb gebruikt voor het laten veranderen van de kleur](Assets\scripts/ColorChanger.cs)
+
+---
+## oefening 6.1
+
+![score](ImgGifs/AndScore6.1.png)
+![layout](ImgGifs/Game.png)
+
+**ik heb een plane heel groot gemaakt voor de vloer hier heb ik 30+ spheres op gezet en een player die de spheres kan oppakken met als eind 20 punten**
+
+[de code file die ik heb gebruikt voor het oppaken van de spheres](Assets\scripts/pickup.cs)

@@ -1,58 +1,59 @@
+
 using UnityEngine;
+
+public enum WeaponType { Sword, Bow, Staff, Dagger }
 
 public class WeaponSwitchEmun : MonoBehaviour
 {
-    string currentWeapon = "default";   
-   
+    public WeaponType selectedWeapon = WeaponType.Sword;
+
     void Start()
     {
-         
-    } 
+        // no automatic SelectWeapon call here (per request)
+    }
 
-   
     void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.Q))
-            currentWeapon = "sword";
-            Debug.Log (" You selected the sword: strong and close range.");
-        if (Input.GetKeyDown(KeyCode.W))
-            currentWeapon = "bow";
-            Debug.Log (" You selected the bow: long range and fast.");
-        if (Input.GetKeyDown(KeyCode.E))
-            currentWeapon = "staff";
-            Debug.Log (" You selected the magic staff: powerful but uses mana.");
         if (Input.GetKeyDown(KeyCode.R))
-            currentWeapon = "dagger";
-            Debug.Log (" You selected the hammer: heavy, slow, but deals massive damage.");
-        if (Input.GetKeyDown(KeyCode.T))
-            currentWeapon = "default";
-            Debug.Log (" You selected the default: basic weapon with balanced stats.");
-
-        
-
-
-        switch (currentWeapon)
         {
-            case "sword":
-                Debug.Log("sword selected");
-                Debug.Log("damage 25, speed 1.0");
+            selectedWeapon = WeaponType.Sword;
+            SelectWeapon(selectedWeapon);
+        }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            selectedWeapon = WeaponType.Bow;
+            SelectWeapon(selectedWeapon);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            selectedWeapon = WeaponType.Staff;
+            SelectWeapon(selectedWeapon);
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            selectedWeapon = WeaponType.Dagger;
+            SelectWeapon(selectedWeapon);
+        }
+    }
+
+    void SelectWeapon(WeaponType wt)
+    {
+        switch (wt)
+        {
+            case WeaponType.Sword:
+                Debug.Log("Sword selected - strong close range. damage 25, speed 1.0");
                 break;
-            case "bow":
-                Debug.Log("bow selected");
-                Debug.Log("damage 20, speed 1.5");
+            case WeaponType.Bow:
+                Debug.Log("Bow selected - long range and fast. damage 20, speed 1.5");
                 break;
-            case "staff":
-                Debug.Log("staff selected");
-                Debug.Log("damage 35, speed 0.7");
+            case WeaponType.Staff:
+                Debug.Log("Staff selected - powerful but uses mana. damage 35, speed 0.7");
                 break;
-            case "dagger":
-                Debug.Log("dagger selected");
-                Debug.Log("damage 15, speed 2.0");
-                break;
-            case "default":
-                Debug.Log("default selected");
-                Debug.Log("damage 10, speed 1.0");
+            case WeaponType.Dagger:
+                Debug.Log("Dagger selected - fast and agile. damage 15, speed 2.0");
                 break;
             default:
                 Debug.Log("No weapon selected");

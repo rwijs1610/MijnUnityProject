@@ -1,4 +1,4 @@
-// ...existing code...
+
 using UnityEngine;
 
 public class ScoreCalculator : MonoBehaviour
@@ -119,4 +119,3 @@ public class ScoreCalculator : MonoBehaviour
         if (this.logToConsole) Debug.Log("Scores reset. A=0, B=0");
     }
 }
-// ...existing code...

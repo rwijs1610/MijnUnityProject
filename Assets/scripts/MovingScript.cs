@@ -1,4 +1,4 @@
-// ...existing code...
+
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
@@ -42,4 +42,3 @@ public class MovingScript : MonoBehaviour
         }
     }
 }
-// ...existing code...
