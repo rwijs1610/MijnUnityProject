@@ -13,7 +13,7 @@
    - 1 Sphere als decoratie (zon of lamp)
 
 ---
-### oefening 1.2
+### oefening 1.2 
 
 ![gaming profile](ImgGifs/GamingProfile1.png)
 
