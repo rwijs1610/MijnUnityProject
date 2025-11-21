@@ -11,7 +11,7 @@
    - 1 Cube voor het dak (draai 45 graden)
    - 2 Cylinders voor schoorstenen
    - 1 Sphere als decoratie (zon of lamp)
-   
+
 ---
 ### oefening 1.2 
 
