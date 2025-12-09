@@ -42,7 +42,7 @@ void Start()
     Debug.Log("Achievement Unlocked: First Script!");
     Debug.Log("==================");
 ```
-[de code file die ik heb gebruikt voor het draaien van het muntje](assets/scripts/m1/CoinSpin.cs)
+[de code file die ik heb gebruikt voor het draaien van het muntje](Assets/scripts/m1/CoinSpin.cs)
 
 ---
 ### oefening 2.1
@@ -51,7 +51,7 @@ void Start()
 
 **de code die ik heb gebruikt heb ik uit me duim gezogen met behulp van ai ik heb wel nageken wat de code doet en kan de code uitleggen**
 
-[de code file die ik heb gebruikt voor het draaien van het muntje](assets/scripts/m1/CoinSpin.cs)
+[de code file die ik heb gebruikt voor het draaien van het muntje](Assets/scripts/m1/CoinSpin.cs)
 
 ---
 ### oefening 2.2
@@ -62,7 +62,7 @@ void Start()
 
 hier heb ik eigenlik niets aan verandert 
 
-[de code file die ik heb gebruikt voor het laten zien van de character sheet ](assets/scripts/m1/PlayerStats.cs)
+[de code file die ik heb gebruikt voor het laten zien van de character sheet](Assets/scripts/m1/PlayerStats.cs)
 
 ---
 
@@ -80,7 +80,7 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb een script gemaakt dat de kleur verandert van de muur op basis van een colision** 
 
-[de code file die ik heb gebruikt voor het laten veranderen van de kleur van de muur  ](Assets\scripts\m1/Colision.cs)
+[de code file die ik heb gebruikt voor het laten veranderen van de kleur van de muur](Assets/scripts/m1/Colision.cs)
 
 ---
 ### oefening 3.2
@@ -88,7 +88,7 @@ hier heb ik eigenlik niets aan verandert
 
 **je ziet hier heel kort hoe die opteeld je bestuurt het door de A en B toets te gebruiken en met W dan laat hij de score zien en vertelt hij wie gewonnen heeft**
 
-[de code file die ik heb gebruikt voor het laten veranderen van de kleur van de muur  ](Assets\scripts/m1/ScoreCalculator.cs)
+[de code file die ik heb gebruikt voor het laten veranderen van de kleur van de muur](Assets/scripts/m1/ScoreCalculator.cs)
 
 ---
 ### oefening 4.1a
@@ -101,7 +101,7 @@ hier heb ik eigenlik niets aan verandert
 
 - een switch zou ook kunnen werken omdat je dan hoeveelheid health kan koppelen aan een massage 
 
-[de code file die ik heb gebruikt voor het laten zien van de code](Assets\scripts/m1/HealthStatus.cs)
+[de code file die ik heb gebruikt voor het laten zien van de code](Assets/scripts/m1/HealthStatus.cs)
 
 ---
 ### oefening 4.1b
@@ -110,7 +110,7 @@ hier heb ik eigenlik niets aan verandert
 
 **het uitbrijden was vrij makkelijk ik heb een script gemaakt dat op de player wordt toegepast het kijkt naar of het object een ```Enemy``` tag heeft en gebruikt deze om de scene te herstarten en een punt van de health af te halen**
 
-[de code file die ik heb gebruikt voor de player](Assets\scripts/m1/PlayerHealth.cs)
+[de code file die ik heb gebruikt voor de player](Assets/scripts/m1/PlayerHealth.cs)
 
 --- 
 ### oefening 4.1c 
@@ -119,7 +119,7 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb een script toegevoegt aan een Enemy die hem om een parent object heen laat draaien**
 
-[de code file die ik heb gebruikt voor het boo script](Assets\scripts/m1/BooScript.cs)
+[de code file die ik heb gebruikt voor het boo script](Assets/scripts/m1/BooScript.cs)
 
 ---
 ### oefening 4.2 
@@ -128,7 +128,7 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb een script gemaakt die kijkt of een object een coin tag heeft en houdt op basis daarvan een score bij**
 
-[coin collector](Assets\scripts/m1/pickup.cs)
+[coin collector](Assets/scripts/m1/pickup.cs)
 
 ---
 ### oefening 5.1 a
@@ -141,7 +141,7 @@ hier heb ik eigenlik niets aan verandert
 
 - een switch zou ook kunnen werken omdat je dan hoeveelheid health kan koppelen aan een massage 
 
-[de code file die ik heb gebruikt voor het laten zien van de code](Assets\scripts/m1/HealthStatus.cs)
+[de code file die ik heb gebruikt voor het laten zien van de code](Assets/scripts/m1/HealthStatus.cs)
 
 --- 
 ### oefening 5.1 b 
@@ -150,7 +150,7 @@ hier heb ik eigenlik niets aan verandert
 
 **het werkt zoals het werkt je stuurd het aan met Q, W, E, R en T**
 
-[de code file die ik heb gebruikt voor de switch](Assets\scripts/m1/WeaponSwitch.cs)
+[de code file die ik heb gebruikt voor de switch](Assets/scripts/m1/WeaponSwitch.cs)
 
 ---
 ### oefening 5.1c
@@ -159,7 +159,7 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb gedaan zoals de opdracht vroeg en heb een enum toegevoegd**
 
-[de code file die ik heb gebruikt voor de switch + de enum](Assets\scripts\m1\WeaponSwitchEmun.cs)
+[de code file die ik heb gebruikt voor de switch + de enum](Assets/scripts/m1/WeaponSwitchEmun.cs)
 
 ---
 ### oefening 5.2
@@ -168,7 +168,7 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb een script gemaakt dat de renderer neemt van het opject en kijkt of het een player is die erop staat als dat zo is kan je met R,G en B de kleur veranderen**
 
-[de code file die ik heb gebruikt voor het laten veranderen van de kleur](Assets\scripts/m1/ColorChanger.cs)
+[de code file die ik heb gebruikt voor het laten veranderen van de kleur](Assets/scripts/m1/ColorChanger.cs)
 
 ---
 ### oefening 6.1
@@ -178,7 +178,7 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb een plane heel groot gemaakt voor de vloer hier heb ik 30+ spheres op gezet en een player die de spheres kan oppakken met als eind 20 punten**
 
-[de code file die ik heb gebruikt voor het oppaken van de spheres](Assets\scripts/m1/pickup.cs)
+[de code file die ik heb gebruikt voor het oppaken van de spheres](Assets/scripts/m1/pickup.cs)
 
 ## Module 2
 ### oefening 1A
@@ -187,4 +187,4 @@ hier heb ik eigenlik niets aan verandert
 
 **ik heb het heel simpel gedaan door een array te maken met de naam `itemName` deze heb ik 10 random dingen gegeven als string values hierna heb ik het gemaakt dat als ik met `enter` klik dat ik dan 1 item Log als je `esc` klikt geeft hij heel de lijst in apparte logs**
 
-[de code file die ik heb gebruikt voor het loggen en maken van de array op basis van input](Assets\scripts/m2/RandomItem(1A).cs)
+[de code file die ik heb gebruikt voor het loggen en maken van de array op basis van input](Assets/scripts/m2/RandomItem(1A).cs)
